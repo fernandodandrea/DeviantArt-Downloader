@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>DeviantArt Downloader options</title>
+
+    </head>
+    <body>
+        <div>Save Directory:</div>
+        <div>
+            <input id="path" type="text" value="DeviantArtDownloader"/> <!-- webkitdirectory directory -->
+        </div>
+        <div>
+            <input type="checkbox" id="save-json" name="save-json" value="save-json">
+            <span>Save tags to JSON file?</span>
+        </div>
+        <div>
+            <input type="checkbox" id="artistfolder" name="artistfolder" value="artistfolder">
+            <span>One folder per artist?</span>
+        </div>
+        <br>
+        <div id="status"></div>
+        <button id="save">Save</button>
+    </body>
+    <script src="options.js"></script>
+</html>
