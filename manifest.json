@@ -1,6 +1,6 @@
 {
   "name": "DeviantArt downloader",
-  "version": "0.9.66",
+  "version": "0.9.67",
   "manifest_version": 2,
   "permissions": [
     "tabs",
